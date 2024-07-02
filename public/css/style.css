@@ -1,0 +1,192 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+nav, section {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+
+h1 {
+    color: #454545;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-xs {
+    font-size: 0.9rem;
+}
+
+.text-xs i {
+    font-size: 0.7rem;
+    color: #888888;
+}
+
+.text-sm {
+    color: #454545;
+}
+
+.text-sm i {
+    margin-right: 0.8rem;
+    color: #454545;
+}
+
+.border-b {
+    border-bottom: .5px solid #e7e7e7;
+
+}
+
+.search-input {
+    width: 30rem;
+    padding: 0.7rem 5rem;
+    border-radius: 30rem;
+    border: 0.1px solid #d1d1d1;
+    position: relative;
+}
+
+.btn-search {
+    background-color: #e7e7e7;
+    color: #888888;
+    border-radius: 30rem;
+    padding: 0.3rem 1rem;
+    position: absolute;
+    margin-left: 0.5rem;
+}
+
+.btn-search i {
+    font-size: 0.9rem;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: 600;
+}
+
+.cart {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #e7e7e7;
+}
+
+.img-carousel {
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+}
+
+.breadcrumb {
+    width: 100%;
+    max-height: 100vh;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.item {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    margin-top: 5rem;
+    width: 30rem;
+}
+
+.service-card img {
+    width: 5rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.service-card h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #454545;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+}
+
+.product {
+    color: #454545;
+}
+
+.product img {
+    width: 15rem;
+}
+
+.product p {
+    font-size: 1rem;
+}
+
+.product button i {
+    font-size: 0.9rem;
+}
+
+.product-item:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.page-bread {
+    position: relative;
+}
+
+.inside-bread {
+    position: absolute;
+    top: 0;
+}
+
+.desc {
+    border-bottom: 0.9px solid #e7e7e7;
+    border-top: 0.9px solid #e7e7e7;
+    padding: 1.5rem 0;
+}
+
+.addToCart {
+    background-color: #000000;
+    border: none;
+    color: white;
+    border-radius: 30rem;
+    padding: 0.5rem 3rem;
+    font-size: 0.9rem;
+    transition: ease 0.9s;
+}
+
+.addToCart i {
+    font-size: 0.9rem;
+}
+
+.addToCart:hover {
+    background-color: #070707;
+}
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.badge {
+    background-color: #ff0000;
+    border-radius: 100%;
+    padding: 2px 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    font-size: 0.7rem;
+}
